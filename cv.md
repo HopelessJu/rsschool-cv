@@ -32,11 +32,7 @@
 ## ***Languages***
 
 **Russian** - native
-
 **Belorussian** - native
-
 **English** - C1
-
 **Polish** - B1
-
 **Italian** - A2
