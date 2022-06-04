@@ -1,4 +1,4 @@
-# ***`Aleksandra Tsikhmanovch`***
+# **`Aleksandra Tsikhmanovch`**
 
 ## **Contact with me**
 - +48571932236
@@ -30,10 +30,13 @@
 
 
 ## ***Languages***
-| Language| level
-|-----------------|:------------:|
-| **Russian**     | native|
-| **Belorussian** | native|
-| **English**     | C1|
-| **Polish**      | B1|
-| **Italian**     | A2|
+
+**Russian** - native
+
+**Belorussian** - native
+
+**English** - C1
+
+**Polish** - B1
+
+**Italian** - A2
