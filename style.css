@@ -208,12 +208,10 @@ progress[value] {
     text-decoration: none;
   }
 
-  .fa {
-      color: #ffffff;
-      font-size: 30px;
-  }
-  .fa:hover {
-      color: #c5deb1;
+ 
+  .contact-logo:hover {
+    box-shadow: 1px 1px 5px 4px #c5deb1;
+    background-color: #c5deb1;
   }
 
   #about-me, #skills {
