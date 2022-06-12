@@ -208,10 +208,7 @@ progress[value] {
     text-decoration: none;
   }
 
-  .contact-logo {
-      color: #ffffff;
-      font-size: 30px;
-  }
+ 
   .contact-logo:hover {
     box-shadow: 1px 1px 5px 4px #c5deb1;
     background-color: #c5deb1;
