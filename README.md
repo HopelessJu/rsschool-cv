@@ -1,2 +1,3 @@
-[HopelessJu-CV-Markdown](https://HopelessJu.github.io/rsschool-cv/cv)
-[HopelessJu-CV](https://HopelessJu.github.io/rsschool-cv/)
+# rsschool-cv
+
+[HopelessJu-CV-html](https://HopelessJu.github.io/rsschool-cv/)
