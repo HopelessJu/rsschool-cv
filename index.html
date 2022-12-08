@@ -10,8 +10,8 @@
     <body>
         <div class="wrapper">
             <div class="header-bgd">
-                <header>
-                    <nav>
+                <header class="header">
+                    <nav class="header-nav">
                         <a class="nav-link" href="#about-me">About me</a>
                         <a class="nav-link" href="#languages">Languages</a>
                         <a class="nav-link" href="#education">Education</a>
@@ -19,27 +19,27 @@
                     </nav>
                     <div class="header-content">
                         <aside class="header-aside">
-                            <img class="avatar" src="./new_photo.jpg" alt="photo avatar">
+                            <img class="avatar" src="./photo_2022-12-08_16-32-24.jpg" width="200"  alt="photo avatar">
                         </aside>
-                        <section>
+                        <section class="section-header">
                             <h1>Aleksandra Tsikhmanovich</h1>
-                            <p class="frontend-developer">frontend developer in the making!</p>
+                            <p class="frontend-developer">frontend developer</p>
                             <p class="contact-me">You are welcome to contact me:</p>
                             <div class="contacts">
                                 <ul class="contact-me-list">
                                     <li>
                                         <a href="https://www.instagram.com/sasha.tihmanovich/">
-                                        <img class="contact-logo" src="./clipart65693.png" width="48" alt="insta-logo">
+                                        <img class="contact-logo" src="./clipart65693.png" width="34" alt="insta-logo">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="mailto:s.tsikhmanovich@gmail.com">
-                                        <img class="contact-logo" src="./clipart4156809.png" width="48" alt="mail-logo">
+                                        <img class="contact-logo" src="./mail.svg" width="46" alt="mail-logo">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="tel:+48571932236">
-                                        <img class="contact-logo" src="./clipart2536321.png" width="48" alt="call-logo">
+                                        <img class="contact-logo" src="./call.svg" width="38" alt="call-logo">
                                         </a>
                                     </li>
                                 </ul>
@@ -49,68 +49,79 @@
                 </header>
             </div>
             <main>
-                <aside class="aside-main">
-                    <h2 id="education">Education</h2>
-                    <ul class="education-list">
-                        <li>
-                            GSMU - general medicine (2009-2015)
-                        </li>
-                        <li>
-                            The RSS JS/FE Pre-School 2022Q2
-                        </li>
-                    </ul>
-                    <h2 id="languages">Languages</h2>
-                    <ul class="languages-list">
-                        <li>
-                            Belorussian <br>
-                            <progress max="100" value="100"></progress>
-                        </li>
-                        <li>
-                            Russian <br>
-                            <progress max="100" value="100"></progress>
-                        </li>
-                        <li>
-                            English <br>
-                            <progress max="100" value="80"></progress>
-                        </li>
-                        <li>
-                            Polish <br>
-                            <progress max="100" value="50"></progress>
-                        </li>
-                        <li>
-                            Italian <br>
-                            <progress max="100" value="30"></progress>
-                        </li>
-                    </ul>
-                </aside>
-                <section class="section-main">
-                    <h2 id="about-me">About me </h2>
-                    <p class="about-me-descriprion">
-                        Greetings. My name is Aleksandra. I graduated from GSMU with a specialty in general medicine and worked as an endoscopist. I am  a <strong>team worker</strong>, who is <strong>reliable</strong>, <strong>responsible</strong> and <strong>motivated</strong>.
-                    </p>
-                    <p class="about-me-descriprion">
-                        After I moved to Poland I decided to change my profession and try something new, something interesting and challenging.
-                    </p>
-                    <p class="about-me-descriprion">
-                        And here I am now learning the basics of programming engineering with The Rolling Scopes School.
-                    </p>
-                    <h2 id="skills">Skills</h2>
-                    <ul class="skills-list">
-                        <li>Git</li>
-                        <li>HTML basics</li>
-                        <li>CSS basics</li>
-                    </ul>
-                    <h3>Code example</h3>
-                        <pre>
-                            <code>
-function multiply(a, b){
-return a * b;
-}
-                            </code>
-                        </pre>
-                    <h3>My projects</h3>
-                    <a class="cv-project" href="https://hopelessju.github.io/rsschool-cv/">CV-project</a>
-                </section>
+                <div class="main-wrapper">
+                    <aside class="aside-main">
+                    
+
+                        
+                        <h2 id="education">Education</h2>
+                        <ul class="education-list">
+                            <li>
+                                GSMU - general medicine (2009-2015)
+                            </li>
+                            <li>
+                                The RSS JS/FE Pre-School 2022Q2
+                            </li>
+                        </ul>
+                        <h2 id="languages">Languages</h2>
+                        <ul class="languages-list">
+                            <li>
+                                Belorussian <br>
+                                <progress max="100" value="100"></progress>
+                            </li>
+                            <li>
+                                Russian <br>
+                                <progress max="100" value="100"></progress>
+                            </li>
+                            <li>
+                                English <br>
+                                <progress max="100" value="80"></progress>
+                            </li>
+                            <li>
+                                Polish <br>
+                                <progress max="100" value="50"></progress>
+                            </li>
+                            <li>
+                                Italian <br>
+                                <progress max="100" value="30"></progress>
+                            </li>
+                        </ul>
+                    </aside>
+                    <section class="section-main">
+                        <h2 id="about-me">About me </h2>
+                        <p class="about-me-descriprion">
+                            Greetings. My name is Aleksandra. I graduated from GSMU with a specialty in general medicine and worked as an endoscopist. I am  a <strong>team worker</strong>, who is <strong>reliable</strong>, <strong>responsible</strong> and <strong>motivated</strong>.
+                        </p>
+                        <p class="about-me-descriprion">
+                            After I moved to Poland I decided to change my profession and try something new, something interesting and challenging.
+                        </p>
+                        <p class="about-me-descriprion">
+                            And here I am now learning the basics of programming engineering with The Rolling Scopes School.
+                        </p>
+                        <h2 id="skills">Skills</h2>
+                        <ul class="skills-list">
+                            <li>Git</li>
+                            <li>HTML basics</li>
+                            <li>CSS basics</li>
+                        </ul>
+                        <h3>Code example</h3>
+                            <pre>
+                                <code>
+    function multiply(a, b){
+    return a * b;
+    }
+                                </code>
+                            </pre>
+                        <h3>My projects</h3>
+                        <div class="project-container">
+                            <a class="project-a" href="https://hopelessju.github.io/online-zoo/" target="_blank"><img src="./Screenshot 2022-12-08 185143.png" width="250" height="150" alt="online-zoo"></a>
+                            <a class="project-a" href="https://rolling-scopes-school.github.io/hopelessju-JSFEPRESCHOOL2022Q2/momentum/" target="_blank"><img src="./Screenshot 2022-12-08 185523.png" width="250" height="150" alt="momentum"></a>
+                            <a class="project-a" href="https://hopelessju.github.io/codejam-eldritch/" target="_blank"><img src="./Screenshot 2022-12-08 185337.png" width="250" height="150" alt="travel"></a>
+                            <a class="project-a" href="https://rolling-scopes-school.github.io/hopelessju-JSFEPRESCHOOL2022Q2/travel/" target="_blank"><img src="./Screenshot 2022-12-08 185446.png" width="250" height="150" alt="horror"></a>
+                            <a class="project-a" href="https://hopelessju.github.io/rsschool-cv/" target="_blank"><img src="./Screenshot 2022-12-08 185627.png" width="250 height="150"" alt="cv-project"></a>
+                        </div>
+                    </section>
+            </div>
             </main>
             <footer>
                 <hr>
